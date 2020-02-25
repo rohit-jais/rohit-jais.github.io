@@ -1,0 +1,77 @@
+body {
+  position: relative;
+  font-family: Titillium Web  ;
+}
+#nav{
+  background-color: rgb(51, 103, 138);
+}
+ #jumbo{
+    /* background-image: url(https://i.pinimg.com/originals/2d/0b/b7/2d0bb7ef8c9fd7ccffed15d67aea76ef.jpg); */
+   background-color: #5199E4;
+   height: 1900px;
+ }
+ #img{
+height: 250px;
+width: 250px; 
+margin-left: 280px;
+border: 7px solid white;
+/* justify-content: center  */
+;
+
+ }
+ 
+.slider-wrapper {
+  font-size: 40px;
+  color:white;
+  /* font-weight: bold; */
+    font-family: "Alfa Slab One";
+
+  /* text-transform: uppercase; */
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+.slider{
+  height: 50px;
+  padding-left:15px;
+  overflow: hidden;
+}
+.slider div {
+  color:#fff;
+  height: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  /* box-sizing: border-box; */
+}
+.slider-text1 {
+  background: rgb(58, 211, 58);
+  animation: slide 5s linear infinite;
+}
+.slider-text2 {
+  background: rgb(236, 80, 8);
+  padding: 2px 15px;
+
+}
+.slider-text3 {
+  background: rgb(226, 60, 60);
+}
+@keyframes slide {
+  0% {margin-top:-300px;}
+  5% {margin-top:-200px;}
+  33% {margin-top:-200px;}
+  38% {margin-top:-100px;}
+  66% {margin-top:-100px;}
+  71% {margin-top:0px;}
+  100% {margin-top:0px;}
+}
+#hr{
+  height: 100px;
+  color: white
+}
+hr{
+  border-color:rgb(51, 103, 138) ;
+}
+#name{
+  font-weight: bold;
+  color: white;
+}
