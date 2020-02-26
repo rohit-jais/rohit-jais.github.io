@@ -8,7 +8,7 @@ body {
  #jumbo{
     /* background-image: url(https://i.pinimg.com/originals/2d/0b/b7/2d0bb7ef8c9fd7ccffed15d67aea76ef.jpg); */
    background-color: #5199E4;
-   height: 1900px;
+   height: 100%;
  }
  #img{
 height: 250px;
@@ -74,4 +74,8 @@ hr{
 #name{
   font-weight: bold;
   color: white;
+}
+#git{
+  color: #666666;
+  
 }

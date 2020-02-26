@@ -6,7 +6,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <link href="css-circular-prog-bar.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-calendar/1.3.1/github-calendar-responsive.css">
+    <script src="https://unpkg.com/github-calendar@1.3.1/dist/github-calendar.min.js"></script>
+   
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -20,6 +24,9 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
     <script src="https://kit.fontawesome.com/b8d475717b.js" crossorigin="anonymous"></script>
     <title>Rohit Jaiswal | Portfolio</title>
+    <link rel = "icon" 
+        href ="icon.png" 
+        type = "image/x-icon"> 
   </head>
   <body data-spy="scroll" data-target="#nav">
     <nav id="nav" class="navbar  navbar fixed-top navbar-light">
@@ -44,27 +51,13 @@
         </a>
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#fat">Home</a>
+            <a class="nav-link text-white" href="#home"><b>Home</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#mdo">Tech Stack & Extras</a>
+            <a class="nav-link text-white" href="#tech"><b>Tech Stack & Extras</b></a>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle text-white"
-              data-toggle="dropdown"
-              href="#"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Dropdown</a
-            >
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#one">one</a>
-              <a class="dropdown-item" href="#two">two</a>
-              <div role="separator" class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#three">three</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#pro"><b>Proficiencies</b></a>
           </li>
         </ul>
       </div>
@@ -73,7 +66,7 @@
       <div class="container-fluid" >
           <div class="row justify-content-center">
              <div class="col-11  " >
-                <h4 id="fat">Home</h4>
+                <h4 id="home">Home</h4>
 
       <div class="jumbotron" id="jumbo" >
           <div class="container-fluid ">
@@ -109,7 +102,7 @@
 
                 <div>
                     <div class="slider-wrapper ml-2 ">
-                     <h1> I'm a </h1>
+                     <h1 class="mt-2"> I'm a </h1>
                       <div class="slider">
                           <div class="slider-text1">Web Designer</div>
                           <div class="slider-text2">Frontend Developer</div>
@@ -132,7 +125,7 @@
               <div class="col-6">
                   <div class="row mt-4 text-white" style="margin-left: 50px;">  
                                 <div class="col">
-                                    <i class="fas fa-map-marker-alt  ml-2"></i> Baengaluru
+                                    <i class="fas fa-map-marker-alt  ml-2"></i> Bengaluru
                                 </div>
                                 <div class="col">
                                     <i class="fas fa-envelope ml-2"> </i> rht.jaiswl@gmailcom
@@ -156,19 +149,21 @@
                             </h4>
                       </div>
                       <div class="col-2">
-                        <img src="think.png" alt="" style="margin-top: -160px; margin-left: -130px;">
+                        <img src="think.png" alt="" style="margin-top: -150px; margin-left: -130px;">
                       </div>
                     </div>
                     </div>
                     <div class="text-center">
-                    <hr class="w-50"style="margin-top:-70px" id="mdo">
-                    <button type="button" class="btn  btn-outline-danger    ">Download CV</button>
+                        <hr class="w-50"style="margin-top:-70px; margin-bottom:20px;" id="tech">
+
+                    <button type="button" class="btn  btn-outline-danger">Download CV</button>
+
                 </div>
                     <div class="mt-2 text-center">
-                        <h1 class="display-3 text-white  mt-3">Tech Stack</h1>
-                        <div class="bg-white mt-4 text-center" style="border-radius: 200px; height: 370px;width: 1300px; margin-left: 150px;">
+                        <h1 class="display-3 text-white  mt-3 ">Tech Stack</h1>
+                        <div class="bg-white mt-2 text-center" style="border-radius: 200px; height: 370px;width: 1300px; margin-left: 150px;">
                         <div class="container pt-1" >
-                            <div class="row mt-5">
+                            <div class="row mt-3 pt-3">
                                 <div class="col-3">
                                     <img src="https://cdn.svgporn.com/logos/html-5.svg" alt=" " title="HTML5" class="" style="width:78px;" />
                                 </div>
@@ -201,9 +196,145 @@
                             </div>
                         </div>
                     </div>
-                    <h1 class="display-3 text-white  mt-5">Extras</h1>
-
                     </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="stack.png" alt="" style="height: 370px; width: 370px; margin-left: -50px; margin-top: -40px; ">
+                        </div>
+                        <div class="col-6 mt-3">
+                            <h1 class="display-3 text-white text-center">Extras</h1>
+                            <div class="bg-white" style=" border-radius: 200px; height: 200px;">
+                                <div class=row>
+                               <div class="col-2">
+                                <img class="mt-5"src="https://www.pngkey.com/png/full/143-1434872_adobe-photoshop-illustrator-indesign-illustrator-photoshop-indesign-logo.png" alt="" title="Adobe's Photoshop, Illustrator and InDesign " style="height:100px; margin-left: 100px;">
+                            </div>
+                            <div class="2 mt-5"style="height: 100px; width: 8px; background-color: #33678A; margin-left:280px "></div>
+                            <div class="col-2">
+                                <img class="mt-5"src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Adobe_Premiere_Pro_Logo.svg/1200px-Adobe_Premiere_Pro_Logo.svg.png  " style="height:100px; margin-left: 100px;" title="Adobe's Premier Pro">
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                        <div class="col-3 ">
+                            <img src="image.png" alt="" style="height: 340px; width: 340px; float: right; margin-top: -50px; margin-right: -40px;">
+                        </div>
+                        </div>
+                        <hr class="w-50"style=" margin-top:-5px;margin-bottom:63px" id="pro">
+                        <div class="text-center">
+                            <h1 class="display-3 text-white  mt-3 ">Proficiencies</h1>
+                            <div>
+                                <img src="sd1.jpg" alt="" style="border-radius: 400px; width: 200px; height: 200px; float: right; margin-right: 50px; margin-top: -60px;">
+                            </div>
+                            <div class="bg-white mt-2 text-center" style="border-radius: 150px; height:100%;width: 1300px; margin-left: 150px;">
+                                <div class="container pt-1" style="color:#666666;" >
+                                    <h1 class="text-center mt-4" style="color: #5199E4;"> <b>Specialised</b></h1>
+    
+                                    <div class="row  pt-3">
+                                        <div class="col-4 text-center">
+                                            <img src="front.png" alt=" " title="Front End"  style="width:175px; height: 175px;" />
+                                            <h3><b>Front-End </b></h3>
+
+                                        </div>
+
+                                        <div class="col-4">
+                                            <img src="react.png" alt=" " title="React App"  style="width:175px; height: 175px;" />
+                                            <h3><b>React App </b></h3>
+
+                                        </div>
+
+
+                                 <div class="col-4">
+                                            <img src="daata.png" title="Data Structure"   style="width:205px; height: 175px;" />
+                                            <h3 class="mt-0"><b>Data Structures</b></h3>
+
+                                        </div>
+                                    </div>
+                                    <div class="row ">
+                                <div class="col-5" style="margin-left: 140px; margin-top:-70px ;">
+                                            <img src="uiux.png" alt=" " title="UI/UX"  style="width:195px; height: 165px;" />
+                                            <h3><b>UI/UX </b></h3>
+                                        </div>
+                                        <div class="col-5" style= "margin-top:-70px ;">
+                                            <img src="boot.png" title="Bootstrap | CSS" alt=" " style="width:270px; height: 175px;margin-top: -10px; margin-left: -190px;" />
+                                            <h3 style="margin-right: 180px;"><b>Bootstrap/CSS</b></h3>
+                                        </div>
+                                        </div>
+                                        <hr class="w-75">
+                                        <div style="background-color: white; height: 200px; width: 200px; border-radius: 300px; margin-left: -260px;" >
+                                            <img  class=" img-fluid rounded-circle mt-3 " src="cup.png" alt=""style=" width: 310px; height: 160px; padding-right:15px" >
+                                        </div>
+                        <h1 class="text-center" style="color: #5199E4; margin-top:-200px;"> <b>Stats</b></h1>
+                        <div class="row">
+    <div class="container text-center ml-5">
+        <div class="row">
+           <div class="col-lg-2 text-center d-none d-lg-block">
+              <div style="height:200px;width:200px;border:15px solid  #C3F3EF"
+                 class="text-center rounded-circle">
+                 <p class="font-weight-bold  h1 text-center mt-4">1000+</p>
+                 <span class="h4">Hours Of<br> Coding</span>
+              </div>
+           </div>
+           <div class="col-lg-2 offset-lg-1 d-none d-lg-block">
+              <div style="height:200px;width:200px;border:15px solid  #C3F3EF"
+                 class="text-center rounded-circle">
+                 <p class="font-weight-bold  h1 mt-4">100+</p>
+                 <span class="h4">Hackerrank <br>Problems</span>
+              </div>
+           </div>
+           <div class="col-lg-2 offset-lg-1 d-none d-lg-block">
+              <div style="height:200px;width:200px;border:15px solid  #C3F3EF"
+                 class="text-center rounded-circle">
+                 <p class="font-weight-bold  h1 mt-4">200+</p>
+                 <span class="h4">GitHub Contributions</span>
+              </div>
+           </div>
+           <div class="col-lg-2 offset-lg-1 d-none d-lg-block">
+              <div style="height:200px;width:200px;border:15px solid #C3F3EF"
+                 class="text-center rounded-circle">
+                 <p class="font-weight-bold h1 mt-4">100</p>
+                 <span class="h4">Hours of <br>Soft Skills</span>
+              </div>
+
+           </div>
+           <hr class="w-75  mt-5">
+        </div>
+        <h1 style="color:#5199E4; margin-top: 10px;"><b>$ git-status</b></h1>
+</div>
+    <div class="container mt-4 d-none d-lg-block">
+        <div>
+            <div class="shadow-none bg-light rounded col-lg-12 col-md-12 col-sm-12" style="margin-bottom: 100px">
+                <div class="calendar">
+                    GitHub Calendar:
+                </div>
+                <hr class="w-75  mt-5">
+            </div>
+            
+        </div>
+        
+    </div>
+
+
+</div>
+<div>
+    <img src="html2.png" alt="" style="border-radius: 300px; width: 200px; background-color: white; height: 200px; float: right; margin-right: -200px; margin-top: -110px;">
+</div>
+    
+                       
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
           </div>
 
         </div>
@@ -216,6 +347,7 @@
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
     ></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -226,6 +358,11 @@
       x="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-    
+    <script type="text/javascript">
+        GitHubCalendar(".calendar", "rohit-jais",
+            {
+                responsive: true
+            });
+    </script>
   </body>
 </html>
