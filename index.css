@@ -13,9 +13,10 @@ body {
  #img{
 height: 250px;
 width: 250px; 
+border-radius: 200px;
 margin-left: 280px;
 border: 7px solid white;
-/* justify-content: center  */
+justify-content: center 
 ;
 
  }
