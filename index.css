@@ -41,7 +41,7 @@ justify-content: center
 .slider div {
   color:#fff;
   height: 50px;
-  margin-bottom: 50px;
+    margin-bottom: 50px;
   /* text-align: center; */
   /* box-sizing: border-box; */
 }
